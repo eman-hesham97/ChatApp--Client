@@ -1,0 +1,91 @@
+h1{
+    text-align: center;
+    font-family: 'Lobster Two', cursive;
+}
+/* ---------------------------- Messages ------------------------------------------ */
+.div2{
+    display:inline;
+}
+.msgs{
+    background-color: lightpink;
+    border-radius: 5px 5px 0px 0px;
+    border-style: solid;
+    border-width: 1px;
+    opacity: 0.7;
+    width: 40%;
+    margin-left: 30%;
+    height: 400px;
+    overflow-y:auto
+    
+}
+section{
+    display: inline;
+}
+.myMsgLi{
+    margin-left: 70%;
+    background-color: blueviolet;
+    color: black;
+    /* margin: 3px; */
+    width: fit-content;
+    height: fit-content;
+    padding: 2px;
+    border-radius: 5px 0px 5px 0px;
+}
+.msgUL{
+    list-style-type: none;
+}
+.allMsgli{
+    margin: 3px;
+    width: fit-content;
+    height: fit-content;
+    padding: 2px;
+    background-color: white;
+    border-radius: 5px 0px 5px 0px;
+}
+li:hover{
+    background-color: white;
+    cursor: pointer;
+}
+.activeLi{
+    background-color: lightpink;
+    /* color: white; */
+    border-radius: 5px;
+    list-style-type: none;
+    height: 30px;
+}
+/* ---------------------------- Available Users ------------------------------------------ */
+.usrUL{
+    width: 200px;
+    list-style-type: circle;
+    color: black;
+}
+.div1{
+    background-color: darkgrey;
+    display:inline;
+    width: 25%;
+    float: left;
+    border-radius:  20% 0% 20% 0% ;
+    padding: 13px;
+    margin: 10px;
+    border-width: 1px;
+    border-style: dotted;
+}
+h4{
+    text-align: center;
+}
+/* ------------------------------------- Send Message ------------------------------------------- */
+.div3{
+    background-color: blue;
+    display:inline;
+}
+.sending{
+    margin-left: 30%;
+    font-size: 26px;
+    font-family: 'Lobster Two', cursive;
+    width: 40%;
+    padding: 1px;
+}
+input{
+    height: 30px;
+    width: 57%;
+}
